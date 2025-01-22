@@ -29,9 +29,9 @@ MSZoning: Identifies the general zoning classification of the sale.
        RM	Residential Medium Density
 	
 LotFrontage: Linear feet of street connected to property
-
+       continuous
 LotArea: Lot size in square feet
-
+       continuous
 Street: Type of road access to property
 
        Grvl	Gravel	
@@ -248,6 +248,7 @@ MasVnrType: Masonry veneer type
        Stone	Stone
 	
 MasVnrArea: Masonry veneer area in square feet
+continuous
 
 ExterQual: Evaluates the quality of the material on the exterior 
 		
@@ -280,7 +281,7 @@ BsmtQual: Evaluates the height of the basement
        Gd	Good (90-99 inches)
        TA	Typical (80-89 inches)
        Fa	Fair (70-79 inches)
-       Po	Poor (<70 inches
+       Po	Poor (<70 inches)
        NA	No Basement
 		
 BsmtCond: Evaluates the general condition of the basement
